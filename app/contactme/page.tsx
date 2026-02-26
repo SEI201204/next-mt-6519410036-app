@@ -1,5 +1,5 @@
 import MyCard from "../../components/MyCard";
-import SlideMenu from "../../components/SideMenu";
+import SideMenu from "../../components/SideMenu";
 
 export default function ContactMe() {
   return (
@@ -73,7 +73,7 @@ export default function ContactMe() {
         </div>
 
         <div className="flex-shrink-0">
-          <SlideMenu />
+          <SideMenu />
         </div>
       </div>
     </main>
