@@ -11,7 +11,7 @@ import GoogleIcon from "../assets/images/Social_Icons_google.png";
 
 export default function MyCard() {
   return (
-    <div className="p-10 border border-gray-600 rounded-[40px] w-[395px] h-[695px] flex flex-col items-center justify-between bg-transparent">
+    <div className="p-6 border border-gray-600 rounded-2xl w-[340px] h-[620px] flex flex-col items-center justify-between bg-transparent">
       
       {/* ส่วนบน: Logo */}
       <div className="w-full">
@@ -21,7 +21,7 @@ export default function MyCard() {
       </div>
 
       {/* ส่วนกลาง: รูปโปรไฟล์ */}
-      <div className="relative w-[325px] h-[324px] overflow-hidden rounded-[30px] border border-gray-800">
+      <div className="relative w-[280px] h-[280px] overflow-hidden rounded-xl border border-gray-800">
         <Image
           src={Myprofile}
           alt="Profile Picture"
