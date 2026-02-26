@@ -4,7 +4,7 @@ html, body {
   height: 100%;
   overflow: hidden;
   padding: 1rem; /* avoid touching edges */
-  background: #000; /* ensure black behind everything */
+  background: #1a1a1a; /* match page bg color */
 }
 
 main {
