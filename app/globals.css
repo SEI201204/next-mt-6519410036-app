@@ -4,6 +4,7 @@ html, body {
   height: 100%;
   overflow: hidden;
   padding: 1rem; /* avoid touching edges */
+  background: #000; /* ensure black behind everything */
 }
 
 main {
