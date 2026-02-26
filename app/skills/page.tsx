@@ -38,9 +38,9 @@ export default function Skills() {
               {skillList.map((skill, index) => (
                 <div key={index} className="flex flex-col items-center gap-4">
 
-                  <div className={`flex flex-col items-center justify-center border-2 ${skill.color} rounded-2xl w-[140px] h-[200px] p-4 space-y-4`}>
-                    <div className="relative w-12 h-12 flex items-center justify-center">
-                       <Image src={skill.src} alt={skill.name} className="object-contain" />
+                  <div className={`flex flex-col items-center justify-center border-2 ${skill.color} rounded-[80px] w-[140px] h-[200px] p-4 space-y-4 overflow-hidden`}>
+                    <div className="relative w-16 h-16 flex items-center justify-center">
+                       <Image src={skill.src} alt={skill.name} className="object-contain max-w-full max-h-full" />
                     </div>
                     <h1 className="text-xl text-orange-500 font-normal">{skill.percent}</h1>
                   </div>
