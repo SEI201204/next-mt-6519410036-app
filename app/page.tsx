@@ -4,7 +4,7 @@ import SlideMenu from "../components/SideMenu";
 export default function home() {
   return (
     // พื้นหลังหลัก (ไม่มีกล่องดำซ้อนแล้ว)
-    <main className="min-h-screen bg-[#1a1a1a] flex items-center justify-center p-10 font-['Libre_Franklin']">
+    <main className="h-screen bg-[#1a1a1a] flex items-center justify-center p-10 font-['Libre_Franklin']">
       
       {/* Wrapper คุมระยะห่างทั้งหมด */}
       <div className="w-full max-w-[1400px] flex items-center justify-between gap-4">

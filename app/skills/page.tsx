@@ -19,7 +19,7 @@ export default function Skills() {
   ];
 
   return (
-    <main className="min-h-screen bg-[#1a1a1a] flex items-center justify-center p-10 font-['Libre_Franklin']">
+    <main className="h-screen bg-[#1a1a1a] flex items-center justify-center p-10 font-['Libre_Franklin']">
       <div className="w-full max-w-[1400px] flex items-center justify-between gap-4">
         
    

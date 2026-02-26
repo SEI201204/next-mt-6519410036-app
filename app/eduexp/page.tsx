@@ -4,7 +4,7 @@ import SideMenu from "../../components/SideMenu";
 export default function eduexp() {
   return (
    
-    <main className="min-h-screen bg-[#1a1a1a] flex items-center justify-center p-10 font-['Libre_Franklin']">
+    <main className="h-screen bg-[#1a1a1a] flex items-center justify-center p-10 font-['Libre_Franklin']">
       
      
       <div className="w-full max-w-[1400px] flex items-center justify-between gap-4">
@@ -22,18 +22,18 @@ export default function eduexp() {
             </h3>
             
             <h1 className="text-[24px]">
-              <span className="text-orange-500">2022 - Present</span>
+              <span className="text-orange-500">2022 - Present</span><br />
               <span className="font-bold">UI/UX Designer</span><br />
-              <span className="">Freelance</span><br />
+              <span className="text-gray-500">Freelance</span><br />
               <span className="font-bold">Fullstack Web Developer</span><br /><br />
               
               <span className="text-orange-500">2022 - 2025</span><br />
               <span className="font-bold">Bachelor Degree in Technology Computer Engineer</span><br />
-              <span className="">Southeast Asia University</span><br /><br />
+              <span className="text-gray-500">Southeast Asia University</span><br /><br />
               
               <span className="text-orange-500">2016 - 2021</span><br />
               <span className="font-bold">High school</span><br />
-              <span className="">Satriwatabsornsawan School</span>
+              <span className="text-gray-500">Satriwatabsornsawan School</span>
             </h1>
           </div>
         </div>
