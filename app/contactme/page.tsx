@@ -22,62 +22,30 @@ export default function contactme() {
             </h3>
             
             <h1 className="text-[24px] ">
-              Let&apos;s get in touch!<br />
+              Let’s get in touch!<br />
             </h1>
           </div >
-          <div className="mt-8 max-w-xl mx-auto space-y-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="flex flex-col">
-                <label className="text-orange-500 mb-2">Email</label>
-                <input
-                  type="text"
-                  className="bg-transparent border-b border-gray-600 focus:border-orange-500 text-white py-2 outline-none"
-                />
-              </div>
-              <div className="flex flex-col">
-                <label className="text-orange-500 mb-2">Phone</label>
-                <input
-                  type="text"
-                  className="bg-transparent border-b border-gray-600 focus:border-orange-500 text-white py-2 outline-none"
-                />
-              </div>
-              <div className="flex flex-col">
-                <label className="text-orange-500 mb-2">Name</label>
-                <input
-                  type="text"
-                  className="bg-transparent border-b border-gray-600 focus:border-orange-500 text-white py-2 outline-none"
-                />
-              </div>
-              <div className="flex flex-col">
-                <label className="text-orange-500 mb-2">Address</label>
-                <input
-                  type="text"
-                  className="bg-transparent border-b border-gray-600 focus:border-orange-500 text-white py-2 outline-none"
-                />
-              </div>
-              <div className="flex flex-col">
-                <label className="text-orange-500 mb-2">Content</label>
+          <div>
+            <div className="flex gap-15"><input type="text" placeholder="Email" className="w-full max-w-md p-4 border-b border-gray-600 focus-within:border-orange-500 transition-colors focus:ring-orange-500 text-orange-500" />
+            <input type="text" placeholder="Phone" className="w-full max-w-md p-4 border-b border-gray-600 focus-within:border-orange-500 transition-colors text-orange-500" />
+            </div>
+             <div className="flex gap-15"><input type="text" placeholder="Name" className="w-full max-w-md p-4 border-b border-gray-600 focus-within:border-orange-500 transition-colors text-orange-500" />
+            <input type="text" placeholder="Address" className="w-full max-w-md p-4 border-b border-gray-600 focus-within:border-orange-500 transition-colors text-orange-500" />
+            </div>
+            <div>
+              <div className="flex gap-15 pt-4">
                 <textarea
                   rows={4}
-                  className="bg-transparent border-b border-gray-600 focus:border-orange-500 text-white py-2 resize-none outline-none"
+                  className="w-full max-w-md bg-transparent p-4 border-b border-gray-600 focus:outline-none focus:border-orange-500 transition-colors resize-none text-orange-500"
+                  placeholder="Content"
                 ></textarea>
               </div>
+              <div className="flex items-center mt-4 p-4">
+                <input type="checkbox" id="subscribe" className="mr-2 border rounded-2xl" />
+                <label htmlFor="subscribe" className="text-gray-400">I would like to receive newsletter.</label>
+              </div>
+              <button className="mt-4 px-6 py-3 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition duration-300 w-[500px]">Submit</button>
             </div>
-
-            <div className="flex items-center">
-              <input
-                type="checkbox"
-                id="subscribe"
-                className="mr-2 border rounded-2xl"
-              />
-              <label htmlFor="subscribe" className="text-gray-400">
-                I would like to receive the newsletter.
-              </label>
-            </div>
-
-            <button className="mt-4 px-8 py-3 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition w-fit">
-              Submit
-            </button>
           </div>
           
         </div>

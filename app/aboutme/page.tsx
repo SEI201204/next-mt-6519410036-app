@@ -17,18 +17,15 @@ export default function aboutme() {
         <div className="flex-grow px-16 text-white">
           
           <div className="space-y-6">
-            <h3 className="text-[40px] font-light tracking-widest ">
+            <h3 className="text-[32px] font-light tracking-widest ">
               About <span className="text-orange-500 font-medium ">Me</span>
             </h3>
             
-            <h1 className="text-[48px] font-bold">
-              I find fullfillment in blending 
-              visual design with the power of 
-              coding to create meaningful 
-              experiences.
+            <h1 className="text-[36px] font-bold leading-tight">
+              I find fulfillment in blending visual design with the power of coding to create meaningful experiences.
             </h1>
 
-            <p className="text-gray-400 text-[24px] leading-relaxed max-w-xl pt-4">
+            <p className="text-gray-400 text-[20px] leading-relaxed max-w-xl pt-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus sequi earum tempora dolor ut nemo dicta? Dolorum ab nemo quidem voluptates, totam repellendus tenetur dolorem? Fugiat veritatis vitae impedit! Dignissimos voluptate nostrum, inventore sed officia adipisci debitis quod ipsum tempore similique unde sit eos assumenda saepe, mollitia doloremque distinctio dicta.
             </p>
           </div>
